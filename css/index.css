@@ -1,0 +1,368 @@
+@font-face {
+    font-family: "MyFontName";
+  
+    src: url('font/MattehekFree.otf');
+  }
+.color_header{
+    background-color: rgb(57, 9, 9);
+}
+.color_body{
+    background-color:rgba(47, 2, 2, 0.911) ;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.color_header a 
+{font-family: "MyFontName";}
+.header_content li{
+margin-left: 10px;
+font-size: 18px;
+}
+.welcome{
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 8px;
+}
+.welcome h2{
+    font-weight: bold;
+    color:#a896b1;
+}
+.fnaf_img {
+    height: 240px;
+    background-image: url(Dota3.webp);
+    background-size: cover; /* Адаптація під контейнер */
+    background-position: center; /* Центрування фону */
+    background-repeat: no-repeat; /* Заборона повторення фону */
+}
+.hed{
+    margin-left: 300px;
+}
+
+.about_fnaf{
+    margin-top: 30px;
+    font-weight: bold;
+    color:#a896b1;
+}
+.text-fnaf{
+    margin-top: 15px;
+    font-weight: bold;
+    
+}
+.fnaf{
+    border-radius: 2%;
+    width: 1320px;
+}
+.parts{
+    margin: 0 auto;
+    margin-left: 53px;
+}
+.parts h3{
+    font-weight: bold;
+    color:#a896b1;
+    margin-bottom: 15px;
+}
+.parts .car{
+    width: 720px;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.7);
+    margin-bottom: 30px;
+}
+.table-fnaf h3{
+    margin-bottom: 15px;
+    font-weight: bold;
+    color:#a896b1;
+}
+.table-part{
+    background-color: #3c0303;
+}
+
+.footer-color{
+    background-color: rgb(36, 0, 0);
+    width: 100%;
+}
+
+/* 2 page */
+
+.anonce{
+    margin-top: 30px;
+    
+    
+}
+.anonce h2{
+    margin-bottom: 15px;
+    font-weight: bold;
+    color:#a896b1;
+}
+.freddy-icon{
+    width: 100px;
+    transition: all 1s ease;
+    margin-left: 15px;
+    color: black;
+}
+.freddy-icon:hover{
+    width: 130px;
+    border-radius: 50%;
+    rotate: 360deg;
+    color: red;
+}
+.icon-hover{
+    display: flex;
+    
+}
+.video-cont iframe{
+    width: 825;
+    height: 450;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.7);
+}
+.text-an{
+    width: 1000px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.text-color{
+    font-weight: bold;
+    color:#c0acca;
+    
+}
+.container .ui-state-active, .ui-widget-content .ui-state-active{
+    border: 1px solid #000000;
+    background: #3c0303;
+    font-weight: normal;
+    color: #ffffff;
+}
+.ui-widget-content {
+    border: 1px solid #dddddd;
+    background: #3c0303;
+    color: #fff0f0;
+}
+.ui-state-default, .ui-widget-content .ui-state-default{
+    border: 1px solid #c5c5c5;
+    background: #3c0303;
+    font-weight: normal;
+    color: #fff0f0;
+}
+
+.timer{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-weight: bold;
+    width: 603px;
+}
+.timer .countdown{
+    font-size: 40px;
+    color: #c0acca;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    
+}
+.timer h2{
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+
+.blinking-text {
+    background: linear-gradient(90deg, #fff, rgb(201, 153, 255), #ce7dca); /* Градієнт */
+    background-size: 200% 100%; /* Розмір градієнта */
+    color: transparent; /* Колір тексту */
+    background-clip: text; /* Відображення градієнта у тексті */
+    -webkit-background-clip: text; /* Відображення градієнта у тексті (для Safari/Chrome) */
+    animation: blink 1s linear infinite; /* Анімація миготіння тексту */
+  }
+
+  
+
+  
+  @keyframes blink {
+    0% {
+      background-position: 100%;
+    }
+    100% {
+      background-position: -100%;
+    }
+  }
+  
+
+    /* Where to find page */
+
+.top-places{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.smt h2{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.smt1 a{
+    text-decoration: none;
+    color: #a18eaa;
+    transition: all 1s ease;
+    
+}
+.smt1 a:hover{
+    color: #7f7086;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.smt1{
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.maps-loc iframe{
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.7);
+}
+.maps-loc h3{
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+}
+
+        /* Базовий стиль тексту */
+        .underline-text {
+            position: relative;
+            display: inline-block;
+        }
+
+        /* Стиль для підкресленого тексту */
+        .underline-text::after {
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 2px;
+            background-color: #a18eaa; /* Колір підкреслення */
+            bottom: 0;
+            left: 0;
+            transform: scaleX(0); /* Початкова ширина 0 */
+            transform-origin: bottom right;
+            transition: transform 0.3s ease-in-out; /* Анімація розширення */
+        }
+
+        /* Анімація при наведенні курсору */
+        .underline-text:hover::after {
+            transform: scaleX(1); /* Розширити до повної ширини */
+            transform-origin: bottom left;
+        }
+
+
+
+
+
+/* Theory page */
+.theory-table{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+}
+.theory-table h2{
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+.theory-table .accordion-item{
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.7);
+}
+.ballon-boy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    
+}
+.ballon-boy img{
+    width: 400px;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.7);
+}
+.choose-theory{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    flex-direction: column;
+}
+.choose-theory h3{
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.choose-theory select{
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.7);
+}
+.text-shadow{
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+        #imageContainer {
+            display: none;
+        }
+        #imageContainer2 {
+            display: none;
+        }
+        #imageContainer3 {
+            display: none;
+        }
+        #imageContainer4 {
+            display: none;
+        }
+        #imageContainer5 {
+            display: none;
+          }
+
+
+.option-theory{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+/*Me page*/
+.header-forme{
+    margin-top: 20px;
+}
+.about-me{
+    display: flex;
+    
+    margin-top: 30px;
+}
+.about-me p{
+    width: 400px;
+    margin-right: 40px;
+}
+.about-me img{
+    border-radius: 10%;
+    width: 300px;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.7);
+}
+
+.logo img{
+    width: 100px;
+    height: 100px;
+  }
+.logo-container{
+    
+    margin-top: 40px;
+    display: flex;
+    width: 120px;
+    margin-left: 50px;
+    transition: all 1s ease;
+    align-items: center;
+    justify-content: center;
+    height: 155px;
+    
+  }
+.logo-container a{
+    text-decoration: none;
+  }
+.logo-container:hover{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    background-color:  #3c0303;
+    border-radius: 20px;
+  }
+.logo-container p{
+    justify-content: center;
+    display: flex;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    color: #a18eaa;;
+  }
+  .links{
+    display: flex;
+    justify-content: center;
+  }
