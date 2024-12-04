@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-	       <title>My site</title>
+    <title>My site</title>
 
     <link href="css/jquery.css" rel="stylesheet">
     <link href="css/index.css" rel="stylesheet">
@@ -14,19 +14,17 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
 
     <link href="img/incondota.png" rel="icon">
-
   </head>
 
   <body data-bs-theme="dark" class="color_body">
     <script src="js/jquery.js"></script>
     <script src="js/jquery-ui.js"></script>
     <script src="js/script.js"></script>
-    <script src="js/bootstrap.js"></script>
     <script src="js/bootstrap.bundle.js"></script>
 
     <header>
       <nav class="navbar navbar-expand-lg color_header">
-        <div class="container hed ">
+        <div class="container hed">
           <a class="navbar-brand" href="index.html">
             <img src="img/incondota.png" alt="Logo" width="32" height="32" class="d-inline-block align-text-top">
             Dota2
@@ -35,7 +33,7 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse header_content" id="navbarSupportedContent">
-            <ul class="navbar-nav mb-2 mb-lg-0 ">
+            <ul class="navbar-nav mb-2 mb-lg-0">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="index.html">Головна</a>
               </li>
@@ -54,24 +52,21 @@
                 </ul>
               </li>
             </ul>
-            
           </div>
         </div>
       </nav>
     </header>
 
-    <div class="welcome container text-center ">
-      <h2>Dota2 фан сторінка</h3>
+    <div class="welcome container text-center">
+      <h2>Dota2 фан сторінка</h2>
     </div>
-    <div class="container fnaf_img">
-      
-    </div>
+    <div class="container fnaf_img"></div>
 
-    <div class="fnaf container">
-      <h3 class="about_fnaf  text-decoration-underline">
+    <div class="fnaf container text-center">
+      <h3 class="about_fnaf text-decoration-underline">
         Коротко про Dota2
       </h3>
-      <div class="text-fnaf ">
+      <div class="text-fnaf">
         <p>"Dota 2" - це мультиплеєрна онлайн-гра в жанрі MOBA (Мультиплеєрна онлайн битва арени). 
           Гравці обирають персонажів, відомих як "герої", з унікальними навичками та характеристиками. 
           Гра поділяється на дві команди по п'ять гравців кожна, які протистоять одна одній на великій карті. 
@@ -80,11 +75,11 @@
       </div>
     </div>
 
-    <div class="parts container">
+    <div class="parts container text-center">
       <h3 class="text-decoration-underline">
-        Культові онолення гри
+        Культові оновлення гри
       </h3>
-      <div class="car">
+      <div class="car text-center">
         <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
@@ -94,55 +89,56 @@
               <img src="img/Dota2.jpg" class="d-block w-100" alt="Dota2">
             </div>
             <div class="carousel-item">
-              <img src="img/Dota31.webp" class="d-block w-100" alt="Dota3">
+              <img src="img/Dota31.jpg" class="d-block w-100" alt="Dota3">
             </div>
           </div>
         </div>
       </div>
     </div>
 
-    <div class="container table-fnaf">
+    <!-- Акордеон для частин -->
+    <div class="accordion container text-center" id="accordionExample">
       <h3 class="text-decoration-underline">Про частини</h3>
-        
-      <table class="table rounded-2">
-        <thead>
-          <tr>
-            <th scope="col">#</th>
-            <th scope="col">Оновлення</th>
-            <th scope="col">Випуск</th>
-            <th scope="col">Опис</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <th scope="row">1</th>
-            <td>6.83D</td>
-            <td>2014 рік</td>
-            <td>Цей патч впроваджував багато змін у героїв, предмети та баланс гри. 
-              Він був важливим для Dota 2, оскільки визначав новий мета-гейм та забезпечив більше різноманіття вибору героїв.</td>
-          </tr>
-          <tr>
-            <th scope="row">2</th>
-            <td>6.86</td>
-            <td>2015 рік</td>
-            <td>Цей патч також вніс численні зміни в героїв та предмети, і став важливим для того, щоб зробити гру більш збалансованою та цікавою. </td>
-          </tr>
-          <tr>
-            <th scope="row">3</th>
-            <td>7.00</td>
-            <td>2016 рік</td>
-            <td>Патч 7.00 був особливо важливим, оскільки він впровадив нову карту, додавши нові регіони та змінивши геймплей. 
-              Також, вперше був представлений новий герой, Monkey King.</td>
-          </tr>
-        </tbody>
-      </table>
-
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingOne">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            Оновлення 7.33
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            Цей патч впроваджував багато змін у героїв, предмети та баланс гри. Він був важливим для Dota 2, оскільки визначав новий мета-гейм та забезпечив більше різноманіття вибору героїв.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingTwo">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            Оновлення 7.34
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            Цей патч також вніс численні зміни в героїв та предмети, і став важливим для того, щоб зробити гру більш збалансованою та цікавою.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            Оновлення 7.36
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            Патч 7.36 був важливим, оскільки впровадив нову карту, додав нові регіони та змінив геймплей.
+          </div>
+        </div>
+      </div>
     </div>
 
-    <div class="">
-      <footer class="footer-color text-white text-center py-3">
-        <b>© 2024</b> Всі права захищено by Lev Omelchenko 
+    <footer class="footer-color text-white text-center py-3">
+      <b>© 2024</b> Всі права захищено by Lev Omelchenko
     </footer>
-    </div>
   </body>
 </html>
