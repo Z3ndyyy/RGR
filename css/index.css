@@ -28,7 +28,7 @@ font-size: 18px;
     color:#a896b1;
 }
 .fnaf_img {
-    height: 240px;
+    height: 700px;
     background-image: url(Dota3.webp);
     background-size: cover; /* Адаптація під контейнер */
     background-position: center; /* Центрування фону */
